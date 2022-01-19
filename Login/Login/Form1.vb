@@ -23,6 +23,7 @@
 
         executesql("INSERT INTO Tbl_UserLogin(User_Fullname,User_Username,User_Password)VALUES('" & UserFullname.Text & "','" & Username.Text & "','" & UserPassword.Text & "')")
 
+        MsgBox("บันทึกเรียบร้อยแล้ว", MsgBoxStyle.Information)
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
